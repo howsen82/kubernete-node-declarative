@@ -1,11 +1,8 @@
 ### Apply deployment and services
 
-<code>
-kubectl apply -f deployment.yml -f service.yml
-<code>
-<code>
-minikube service backend
-</code>
+
+> kubectl apply -f deployment.yml -f service.yml
+> minikube service backend
 
 or
 
