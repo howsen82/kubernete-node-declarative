@@ -17,13 +17,13 @@ kubectl apply -f master-deployment.yml
 
 <blockquote>
 kubectl delete -f deployment.yml -f service.yml
-<blockquote>
+</blockquote>
 
 or
 
 <blockquote>
 kubectl delete -f deployment.yml, service.yml
-<blockquote>
+</blockquote>
 
 or
 
