@@ -15,25 +15,25 @@ kubectl apply -f master-deployment.yml
 
 ### Delete and remove services
 
-<code>
+<blockquote>
 kubectl delete -f deployment.yml -f service.yml
-<code>
+<blockquote>
 
 or
 
-<code>
+<blockquote>
 kubectl delete -f deployment.yml, service.yml
-<code>
+<blockquote>
 
 or
 
 Delete by selected label
-<code>
+<blockquote>
 kubectl delete -l group=example
-</code>
+</blockquote>
 
 or Delete by specified resources
 
-<code>
+<blockquote>
 kubectl delete deployments,service -l group=example
-</code>
+</blockquote>
