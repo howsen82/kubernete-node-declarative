@@ -2,7 +2,9 @@
 
 <blockquote>
 kubectl apply -f deployment.yml -f service.yml
-> minikube service backend
+</blockquote>
+<blockquote>
+minikube service backend
 </blockquote>
 
 or
