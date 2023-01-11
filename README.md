@@ -1,14 +1,15 @@
 ### Apply deployment and services
 
-
-> kubectl apply -f deployment.yml -f service.yml
-> minikube service backend
+<blockquote>
+kubectl apply -f deployment.yml -f service.yml
+minikube service backend
+</blockquote>
 
 or
 
-<code>
+<blockquote>
 kubectl apply -f master-deployment.yml
-</code>
+</blockquote>
 
 ### Delete and remove services
 
